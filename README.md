@@ -9,7 +9,7 @@ This opens up a wealth of possibilities, chief of which for language learners is
 Now, you can play your favorite games, classic or contemporary, in their original language and use them as a learning resource. Or you might just get through them where you otherwise couldn't. Things that are old become new again through the eyes of a student. 
 
 ## Initial setup
-No initial setup of miEru itself is required—simply unzip the miEru directory wherever you'd like to place it, and launch **miEru.exe**. You'll see its icon appear in the system tray/notification area, which you can right-click to exit the program. When its **見** icon is visible in the system tray, miEru is active and will scan the active window when it detects hotkey presses—see usage below.
+No initial setup of miEru itself is required—simply unzip the miEru directory wherever you'd like to place it, and launch **miEru.exe**. You'll see its **見** icon appear in the system tray/notification area, which you can **right-click** to **exit** the program. When its **見** icon is visible in the system tray, miEru is active and will scan the active window when it detects hotkey presses—see usage below.
 
 Should you want to use miEru as it was intended to be used, you'll need to install several browser addons, and optionally some hotkey software, to take full advantage of its capabilities.
 
@@ -26,28 +26,40 @@ https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebam
 Should the included API key be expired by the time you begin using miEru yourself, you'll need to create your own—don't worry, it's very easy to do, and free if you're only using the service personally. Check the **Vision API setup** section below for details.
 
 ### Vision API setup
-miEru uses Google Cloud's Vision API to perform OCR on the active window, and then convey the results of each call to the clipboard. This requires an API key, which is associated with a Google account. Users of the API are permitted a number of free calls per month, and are charged (only with permission) for any calls made beyond that limit. Google offers $300 of free Cloud credit upon signup. For convenience's sake, an API key is included with this distribution that was made especially for it—should its free $300 credit eventually dry up, you'll need to create your own key. This is trivially easy to do, only requires a payment method (which will likely never be charged provided the key is only for your own personal use), and is explained in detail below.
+miEru uses Google Cloud's **Vision API** to perform OCR on the active window, the results of which miEru then conveys to the clipboard. This requires an **API key**, which is associated with a Google account. Users of the API are permitted a number of free calls per month, and are charged (only with permission) for any calls made beyond that limit. Google offers $300 of free Cloud credit upon signup. For convenience's sake, an **API key** is included with this distribution that was made especially for it—should its free $300 credit eventually dry up, you'll need to create your own key. This is trivially easy to do, only requires a payment method (which will likely never be charged provided the key is only for your own personal use), and is explained in detail below.
 
 For more information, refer to https://cloud.google.com/vision/pricing
 
+https://cloud.google.com/vision/docs/before-you-begin Log in to your Google account and open this page
+
 https://prnt.sc/tnwnjd Click "Get started for free"
+
 https://prnt.sc/tnvh6x Agree and continue
+
 https://prnt.sc/tnvitn Activate free $300 credit by adding payment method
+
 https://prnt.sc/tnvjqy
+
 https://prnt.sc/tnvlpa Note that there's no charge unless automatic billing is enabled
+
 https://cloud.google.com/free/docs/gcp-free-tier#always-free Vision is always-free per month below a certian number of calls
+
 https://prnt.sc/tnw3dz I've made more than a thousand calls since development began, used less than $1 of free credit
+
 https://prnt.sc/tnw8ib Go to the project selector page. It appears that Google automatically added some dummy projects to my account, but if it doesn't add them to yours, simply click "create project", type in a name, and you're good to go. 
+
 https://prnt.sc/tnw9rr Enable the Vision API
+
 https://prnt.sc/tnwafv Select the project you created, click "Continue"
+
 https://prnt.sc/tnwbaj All we need is an API key, so click "API key"
-https://prnt.sc/tnwccu It really shouldn't matter what you name your key. Click "Create"
+
+https://prnt.sc/tnwccu It really shouldn't matter what you name your key. Click "Create".
+
 https://prnt.sc/tnwpzz Copy the key to your clipboard with this button
 
 After you've generated your API key, you'll need to navigate to the UGT folder within the miEru directory, and open "config.txt". Find the line "google_api_key|", and paste the key directly after the pipe, replacing the existing entry. Save, and you're finished.
 
-https://cloud.google.com/vision/docs/before-you-begin
 
-
-  
+## Special thanks
 * Contains code written by Seth A. Robinson (seth@rtsoft.com) twitter: @rtsoft - Codedojo, Seth's blog
