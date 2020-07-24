@@ -13,6 +13,8 @@ No initial setup of miEru itself is required—simply unzip the miEru folder whe
 
 Should you want to use miEru as it was intended to be used, you'll need to install several browser addons, and optionally some hotkey software, to take full advantage of its capabilities.
 
+>**Note:** Should the included API key be expired by the time you begin using miEru yourself, you'll need to create your own—don't worry, it's very easy to do, and free if you're only using the service personally. Check the **Vision API setup** section below for details.
+
 ## Browser addons
 Browser addons provide critical augmentations to miEru's core functionality. **Clipboard Inserter** is used to get Japanese text from miEru into your browser, and **rikaikun/Rikaichamp** are used to analyze the text and define words. **Open-as-Popup** conveniently turns your browser window into a borderless one for easy viewing.
 
@@ -24,7 +26,9 @@ Browser addons provide critical augmentations to miEru's core functionality. **C
 
 * **Open-as-Popup** – Transforms the current browser window or tab into a separate window without browser UI elements, ideal for eliminating distractions and focusing on text. Once you install the addon, it'll create a unique-looking icon with a green arrow—click this to activate the current window or tab, and if you'd like to return the popup window back to where it was, you can right-click within it and select **Toggle Open-as-Popup**. [Open-as-Popup for Chrome](https://chrome.google.com/webstore/detail/open-as-popup/ncppfjladdkdaemaghochfikpmghbcpc?hl=en) — [Popup window for Firefox](https://addons.mozilla.org/en-US/firefox/addon/popup-window/)
 
-Should the included API key be expired by the time you begin using miEru yourself, you'll need to create your own—don't worry, it's very easy to do, and free if you're only using the service personally. Check the **Vision API setup** section below for details.
+## Optional tools
+
+## Usage
 
 ### Vision API setup
 miEru uses Google Cloud's **Vision API** to perform OCR on the active window, the results of which miEru then conveys to the clipboard. This requires an **API key**, which is associated with a Google account. Users of the API are permitted a number of free calls per month, and are charged (only with permission) for any calls made beyond that limit. Google offers $300 of free Cloud credit upon signup. For convenience's sake, an **API key** is included with this distribution, which was made especially for it—should its free $300 credit eventually dry up, you'll need to create your own key. This is trivially easy to do, only requires a payment method (which will likely never be charged, provided the key is only for your own personal use), and is explained in detail below.
