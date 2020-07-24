@@ -38,7 +38,7 @@ https://prnt.sc/tnvh6x Agree and continue
 
 https://prnt.sc/tnvitn Activate free $300 credit by adding payment method
 
-https://prnt.sc/tnvjqy
+https://prnt.sc/tnvjqy Agree to the terms and continue
 
 https://prnt.sc/tnvlpa Note that there's no charge unless automatic billing is enabled
 
