@@ -30,10 +30,13 @@ Browser addons provide critical augmentations to miEru's core functionality. **C
 
 
 ## Usage
-miEru is activated by a keyboard hotkey combination—by default, this is **Ctrl + F12**, but can be changed by modifying the **hotkey_to_scan_active_window** parameter in **/miEru/UGT/config.txt**. When it detects this combo, it takes a screenshot of the active window, sends that screenshot to the **Vision API**, receives the textual result of the API call, parses the result, and then forwards it to the clipboard for viewing in the browser window.
+miEru is activated by a keyboard hotkey combination—by default, this is **Ctrl + F12**, but can be changed by modifying the **hotkey_to_scan_active_window** parameter in **/miEru/UGT/config.txt**. When miEru detects this combo, it takes a screenshot of the active window, sends the screenshot to the **Vision API**, receives the textual result of the API call, parses the result, and then forwards it to the clipboard for viewing in the browser window.
 
 ### Set up the browser window
 An empty local HTML file will work, but retro JRPG-styled window templates are included in **/miEru/CSS Files**. Notably, these files contain carefully-designed CSS code to ensure text is presented in a form optimal for the way miEru presents it. You can easily edit them yourself and style text to your liking. Simply drag and drop the desired HTML file into a browser window, and it'll open as a new tab. From there, enable **Clipboard Inserter** and **rikaikun/Rikaichamp**, and optionally turn the window into a popup using **Open-as-Popup**, and you're ready for immersive learning.
+
+### Begin capturing
+Run the content you wish to capture—typically, a retro game 
 
 ### Vision API setup
 miEru uses Google Cloud's **Vision API** to perform OCR on the active window, the results of which miEru then conveys to the clipboard. This requires an **API key**, which is associated with a Google account. Users of the API are permitted a number of free calls per month, and are charged (only with permission) for any calls made beyond that limit. Google offers $300 of free Cloud credit upon signup. For convenience's sake, an **API key** is included with this distribution, which was made especially for it—should its free $300 credit eventually dry up, you'll need to create your own key. This is trivially easy to do, only requires a payment method (which will likely never be charged, provided the key is only for your own personal use), and is explained in detail below.
