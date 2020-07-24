@@ -38,7 +38,7 @@ Browser addons provide critical augmentations to miEru's core functionality. **C
 miEru is activated by a keyboard **capture hotkey combination**—by default, this is **Ctrl + F12**, but can be changed by modifying the **hotkey_to_scan_active_window** parameter in **/miEru/UGT/config.txt**. When miEru detects this combo, it takes a screenshot of the active window, sends the screenshot to the **Vision API**, receives the textual result of the API call, parses the result, and then forwards it to the clipboard for viewing in the browser window.
 
 ### Set up the browser window
-An empty local HTML file will work, but retro JRPG-styled window templates are included in **/miEru/CSS Files/**. Notably, these files contain carefully-designed CSS code to ensure text is presented in a form optimal for the way miEru presents it. You can easily edit them yourself and style text to your liking. Simply drag and drop the desired HTML file into a browser window, and it'll open as a new tab. From there, enable **Clipboard Inserter** and **rikaikun/Rikaichamp**, and optionally turn the window into a popup using **Open-as-Popup**, and you're ready for immersive learning.
+An empty local HTML file will work, but retro JRPG-styled window templates are included in **/miEru/CSS Files/**. Notably, these files contain carefully-designed CSS code to ensure text is presented in a form optimal for the way miEru presents it. You can easily edit them yourself and style text to your liking. Simply drag and drop the desired HTML file into a browser window, and it'll open as a new tab. From there, enable **Clipboard Inserter** and **rikaikun/Rikaichamp**, optionally turn the window into a popup using **Open-as-Popup**, and you're ready for immersive learning.
 
 ### Begin capturing
 Run the content you wish to capture—typically, a retro game running in an emulator, or a PC game with Japanese text—and press the **capture hotkey**. You'll see the text captured by the API appear in the browser window you prepared—typically, each call takes under two seconds, sometimes as little as one, but speed can vary depending on API server load. Note that the desired window must be selected and active for it to be captured—**rikaikun** will still work even if the browser window is inactive, so you can hover over text without deselecting the desired window. If you're using the included HTML files, captured text will appear at the top of the browser window as to prevent the necessity of scrolling down for each new line of text. 
@@ -89,7 +89,7 @@ miEru uses Google Cloud's **Vision API** to perform OCR on the active window, th
 
 * [Copy the key to your clipboard with this button](https://prnt.sc/tnwpzz) 
 
-After you've generated your API key, you'll need to navigate to the UGT folder within the miEru directory, and open "config.txt". Find the line "google_api_key|", and paste the key directly after the pipe, replacing the existing entry. Save, and you're finished.
+After you've generated your API key, you'll need to navigate to the UGT folder within the miEru directory, and open **config.txt**. Find the line **google_api_key|**, and paste the key directly after the pipe, replacing the existing entry. Save, and you're finished.
 
 
 ## Special thanks
