@@ -61,8 +61,6 @@ Several optional tools can provide extensibility for activating hotkeys.
 ### Vision API setup
 miEru uses Google Cloud's **Vision API** to perform OCR on the active window, the results of which miEru then conveys to the clipboard. This requires an **API key**, which is associated with a Google account. Users of the API are permitted a number of free API calls per month, and are charged (only with permission) for any calls made beyond that limit. Google offers $300 of free Cloud credit upon signup. For convenience's sake, an **API key** is included with this distribution, which was made especially for it—should its free $300 credit eventually dry up, you'll need to create your own key. This is trivially easy to do, only requires a payment method (which will likely never be charged, provided the key is only for your own personal use), and is explained in detail below.
 
-For more information, refer to https://cloud.google.com/vision/pricing
-
 * Log in to your Google account and open [this page](https://cloud.google.com/vision/docs/before-you-begin)
 
 * [Click "Get started for free"](https://prnt.sc/tnwnjd)
@@ -75,7 +73,7 @@ For more information, refer to https://cloud.google.com/vision/pricing
 
 * [Note that there's no charge unless automatic billing is enabled](https://prnt.sc/tnvlpa) 
 
-* Vision is [always-free](https://cloud.google.com/free/docs/gcp-free-tier#always-free) per month below a certian number of calls
+* Vision is [always-free](https://cloud.google.com/free/docs/gcp-free-tier#always-free) per month below a certian number of calls. For more information, refer to https://cloud.google.com/vision/pricing
 
 * [1400 calls, less than $1](https://prnt.sc/tnw3dz) 
 
