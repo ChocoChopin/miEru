@@ -6,7 +6,9 @@ miEru is a Windows-based language-learning tool that does one thing extremely we
 
 This opens up a wealth of possibilities, chief of which for language learners is the ability to analyze scanned text with browser-based hover dictionaries such as Rikaikun.
 
-Now, you can play your favorite games, classic or contemporary, in their original language and use them as a learning resource. Or you might just get through them where you otherwise couldn't. Things that are old become new again through the eyes of a student. 
+Now, you can play your favorite games, classic or contemporary, in their original language and use them as a learning resource. Or you might just get through them where you otherwise couldn't. Things that are old become new again through the eyes of a student.
+
+![Alt](https://iili.io/dIugQs.png "Does 'iconic' even begin to describe it?")
 
 ## Initial setup
 No initial setup of miEru itself is required—simply unzip the miEru folder wherever you'd like to place it, and launch **miEru.exe**. You'll see its **見** icon appear in the system tray/notification area, which you can **right-click** to **exit** the program. When its **見** icon is visible in the system tray, miEru is active and will scan the active window when it detects hotkey presses—see usage below.
@@ -49,6 +51,11 @@ Several optional tools can provide extensibility for activating hotkeys.
   
 * **AutoHotkey** – Arguably among the most useful Windows utilities ever created, AutoHotkey provides a simple-yet-sophisticated system for creating and using keyboard macros. Not only can its macros be used to interact with the Windows API in almost any way imaginable, for our purposes, AutoHotkey also takes input from connected gamepads, meaning that a **gamepad button** can be macroed to the **capture hotkey**. In this case, its only limitation is that unlike DS4Win, its macros cannot simulate gamepad button input—so you'll need to press the confirm button in addition to the capture button each time. Included in **/miEru/AutoHotkey scripts** are **Controller hotkey template** and **Gamepad test script**. After installing AutoHotkey, first run the test script, which will produce a tooltip next to the cursor. This provides live feedback about gamepad input. The device itself will appear as **1joy**, and potentially as anything up to **4joy** or more depending on how many gamepads you have configured. Captured inputs will appear as **1joy7**, with the second number corresponding to the button pressed. Run the template script, and then edit it by right-clicking on its system tray/notification area icon. Modify each of the macro entries to reflect the desired device and button as shown [here](https://prnt.sc/to1dsa), save the file in the editor, and then choose **Reload script** from the system tray icon's menu. The configured button will now perform miEru captures. Exit the test script using its own system tray icon.  
   * [AutoHotkey](https://www.autohotkey.com/)
+
+## Caveats
+
+
+![Alt](https://iili.io/dIuP44.png "Madou? Haidou? Little from column A, little from column B?")
 
 ### Vision API setup
 miEru uses Google Cloud's **Vision API** to perform OCR on the active window, the results of which miEru then conveys to the clipboard. This requires an **API key**, which is associated with a Google account. Users of the API are permitted a number of free API calls per month, and are charged (only with permission) for any calls made beyond that limit. Google offers $300 of free Cloud credit upon signup. For convenience's sake, an **API key** is included with this distribution, which was made especially for it—should its free $300 credit eventually dry up, you'll need to create your own key. This is trivially easy to do, only requires a payment method (which will likely never be charged, provided the key is only for your own personal use), and is explained in detail below.
