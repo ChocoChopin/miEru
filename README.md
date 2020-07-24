@@ -69,7 +69,7 @@ For more information, refer to https://cloud.google.com/vision/pricing
 
 * [Agree and continue](https://prnt.sc/tnvh6x)
 
-* [Activate free $300 credit by adding payment method])(https://prnt.sc/tnvitn) 
+* [Activate free $300 credit by adding payment method](https://prnt.sc/tnvitn) 
 
 * [Agree to the terms and continue](https://prnt.sc/tnvjqy) 
 
