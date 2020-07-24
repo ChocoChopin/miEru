@@ -28,40 +28,45 @@ Browser addons provide critical augmentations to miEru's core functionality. **C
 
 ## Optional tools
 
+
 ## Usage
+miEru is activated by a keyboard hotkey combination—by default, this is **Ctrl + F12**, but can be changed by modifying the **hotkey_to_scan_active_window** parameter in **/miEru/UGT/config.txt**. When it detects this combo, it takes a screenshot of the active window, sends that screenshot to the **Vision API**, receives the textual result of the API call, parses the result, and then forwards it to the clipboard for viewing in the browser window.
+
+### Set up the browser window
+An empty local HTML file will work, but retro JRPG-styled window templates are included in **/miEru/CSS Files**. Notably, these files contain carefully-designed CSS code to ensure text is presented in a form optimal for the way miEru presents it. You can easily edit them yourself and style text to your liking. Simply drag and drop the desired HTML file into a browser window, and it'll open as a new tab. From there, enable **Clipboard Inserter** and **rikaikun/Rikaichamp**, and optionally turn the window into a popup using **Open-as-Popup**, and you're ready for immersive learning.
 
 ### Vision API setup
 miEru uses Google Cloud's **Vision API** to perform OCR on the active window, the results of which miEru then conveys to the clipboard. This requires an **API key**, which is associated with a Google account. Users of the API are permitted a number of free calls per month, and are charged (only with permission) for any calls made beyond that limit. Google offers $300 of free Cloud credit upon signup. For convenience's sake, an **API key** is included with this distribution, which was made especially for it—should its free $300 credit eventually dry up, you'll need to create your own key. This is trivially easy to do, only requires a payment method (which will likely never be charged, provided the key is only for your own personal use), and is explained in detail below.
 
 For more information, refer to https://cloud.google.com/vision/pricing
 
-https://cloud.google.com/vision/docs/before-you-begin Log in to your Google account and open this page
+* https://cloud.google.com/vision/docs/before-you-begin Log in to your Google account and open this page
 
-https://prnt.sc/tnwnjd Click "Get started for free"
+* https://prnt.sc/tnwnjd Click "Get started for free"
 
-https://prnt.sc/tnvh6x Agree and continue
+* https://prnt.sc/tnvh6x Agree and continue
 
-https://prnt.sc/tnvitn Activate free $300 credit by adding payment method
+* https://prnt.sc/tnvitn Activate free $300 credit by adding payment method
 
-https://prnt.sc/tnvjqy Agree to the terms and continue
+* https://prnt.sc/tnvjqy Agree to the terms and continue
 
-https://prnt.sc/tnvlpa Note that there's no charge unless automatic billing is enabled
+* https://prnt.sc/tnvlpa Note that there's no charge unless automatic billing is enabled
 
-https://cloud.google.com/free/docs/gcp-free-tier#always-free Vision is always-free per month below a certian number of calls
+* https://cloud.google.com/free/docs/gcp-free-tier#always-free Vision is always-free per month below a certian number of calls
 
-https://prnt.sc/tnw3dz I've made more than a thousand calls since development began, used less than $1 of free credit
+* https://prnt.sc/tnw3dz I've made more than a thousand calls since development began, used less than $1 of free credit
 
-https://prnt.sc/tnw8ib Go to the project selector page. It appears that Google automatically added some dummy projects to my account, but if it doesn't add them to yours, simply click "create project", type in a name, and you're good to go. 
+* https://prnt.sc/tnw8ib Go to the project selector page. It appears that Google automatically added some dummy projects to my account, but if it doesn't add them to yours, simply click "create project", type in a name, and you're good to go. 
 
-https://prnt.sc/tnw9rr Enable the Vision API
+* https://prnt.sc/tnw9rr Enable the Vision API
 
-https://prnt.sc/tnwafv Select the project you created, click "Continue"
+* https://prnt.sc/tnwafv Select the project you created, click "Continue"
 
-https://prnt.sc/tnwbaj All we need is an API key, so click "API key"
+* https://prnt.sc/tnwbaj All we need is an API key, so click "API key"
 
-https://prnt.sc/tnwccu It really shouldn't matter what you name your key. Click "Create".
+* https://prnt.sc/tnwccu It really shouldn't matter what you name your key. Click "Create".
 
-https://prnt.sc/tnwpzz Copy the key to your clipboard with this button
+* https://prnt.sc/tnwpzz Copy the key to your clipboard with this button
 
 After you've generated your API key, you'll need to navigate to the UGT folder within the miEru directory, and open "config.txt". Find the line "google_api_key|", and paste the key directly after the pipe, replacing the existing entry. Save, and you're finished.
 
