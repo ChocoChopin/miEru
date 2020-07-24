@@ -63,21 +63,21 @@ miEru uses Google Cloud's **Vision API** to perform OCR on the active window, th
 
 For more information, refer to https://cloud.google.com/vision/pricing
 
-* https://cloud.google.com/vision/docs/before-you-begin Log in to your Google account and open this page
+* Log in to your Google account and open [this page](https://cloud.google.com/vision/docs/before-you-begin)
 
 * [Click "Get started for free"](https://prnt.sc/tnwnjd)
 
 * [Agree and continue](https://prnt.sc/tnvh6x)
 
-* (https://prnt.sc/tnvitn [Activate free $300 credit by adding payment method])
+* [Activate free $300 credit by adding payment method])(https://prnt.sc/tnvitn) 
 
-* (https://prnt.sc/tnvjqy) [Agree to the terms and continue]
+* [Agree to the terms and continue](https://prnt.sc/tnvjqy) 
 
-* (https://prnt.sc/tnvlpa) [Note that there's no charge unless automatic billing is enabled]
+* [Note that there's no charge unless automatic billing is enabled](https://prnt.sc/tnvlpa) 
 
-* (https://cloud.google.com/free/docs/gcp-free-tier#always-free) [Vision is always-free per month below a certian number of calls]
+* Vision is [always-free](https://cloud.google.com/free/docs/gcp-free-tier#always-free) per month below a certian number of calls
 
-* [I've made more than a thousand calls since development began, used less than $1 of free credit](https://prnt.sc/tnw3dz) 
+* [1400 calls, less than $1](https://prnt.sc/tnw3dz) 
 
 * [Go to the project selector page.](https://prnt.sc/tnw8ib) It appears that Google automatically added some dummy projects to my account, but if it doesn't add them to yours, simply click "create project", type in a name, and you're good to go. 
 
