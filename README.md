@@ -6,7 +6,7 @@ miEru is a Windows-based language-learning tool that does one thing extremely we
 
 This opens up a wealth of possibilities, chief of which for language learners is the ability to analyze scanned text with browser-based hover dictionaries such as Rikaikun.
 
-Now, you can play your favorite games, classic or contemporary, in their original language and use them as a learning resource. Or you might just get through them where you otherwise couldn't. Things that are old become new again through the eyes of a student.
+Now, you can play your favorite games, classic or contemporary, in their original language and use them as a learning resource. Or you might just get through them where you otherwise couldn't. Old things become new again through the eyes of a student.
 
 ![Alt](https://iili.io/dIugQs.png "Does &quot;iconic&quot; even begin to describe it?")
 
@@ -65,31 +65,31 @@ For more information, refer to https://cloud.google.com/vision/pricing
 
 * https://cloud.google.com/vision/docs/before-you-begin Log in to your Google account and open this page
 
-* https://prnt.sc/tnwnjd Click "Get started for free"
+* [Click "Get started for free"](https://prnt.sc/tnwnjd)
 
-* https://prnt.sc/tnvh6x Agree and continue
+* [Agree and continue](https://prnt.sc/tnvh6x)
 
-* https://prnt.sc/tnvitn Activate free $300 credit by adding payment method
+* (https://prnt.sc/tnvitn [Activate free $300 credit by adding payment method])
 
-* https://prnt.sc/tnvjqy Agree to the terms and continue
+* (https://prnt.sc/tnvjqy) [Agree to the terms and continue]
 
-* https://prnt.sc/tnvlpa Note that there's no charge unless automatic billing is enabled
+* (https://prnt.sc/tnvlpa) [Note that there's no charge unless automatic billing is enabled]
 
-* https://cloud.google.com/free/docs/gcp-free-tier#always-free Vision is always-free per month below a certian number of calls
+* (https://cloud.google.com/free/docs/gcp-free-tier#always-free) [Vision is always-free per month below a certian number of calls]
 
-* https://prnt.sc/tnw3dz I've made more than a thousand calls since development began, used less than $1 of free credit
+* [I've made more than a thousand calls since development began, used less than $1 of free credit](https://prnt.sc/tnw3dz) 
 
-* https://prnt.sc/tnw8ib Go to the project selector page. It appears that Google automatically added some dummy projects to my account, but if it doesn't add them to yours, simply click "create project", type in a name, and you're good to go. 
+* [Go to the project selector page.](https://prnt.sc/tnw8ib) It appears that Google automatically added some dummy projects to my account, but if it doesn't add them to yours, simply click "create project", type in a name, and you're good to go. 
 
-* https://prnt.sc/tnw9rr Enable the Vision API
+* [Enable the Vision API](https://prnt.sc/tnw9rr) 
 
-* https://prnt.sc/tnwafv Select the project you created, click "Continue"
+* [Select the project you created, click "Continue"](https://prnt.sc/tnwafv) 
 
-* https://prnt.sc/tnwbaj All we need is an API key, so click "API key"
+* [All we need is an API key, so click "API key"](https://prnt.sc/tnwbaj) 
 
-* https://prnt.sc/tnwccu It really shouldn't matter what you name your key. Click "Create".
+* [It really shouldn't matter what you name your key. Click "Create".](https://prnt.sc/tnwccu)
 
-* https://prnt.sc/tnwpzz Copy the key to your clipboard with this button
+* [Copy the key to your clipboard with this button](https://prnt.sc/tnwpzz) 
 
 After you've generated your API key, you'll need to navigate to the UGT folder within the miEru directory, and open "config.txt". Find the line "google_api_key|", and paste the key directly after the pipe, replacing the existing entry. Save, and you're finished.
 
