@@ -14,19 +14,21 @@ No initial setup of miEru itself is required—simply unzip the miEru directory 
 Should you want to use miEru as it was intended to be used, you'll need to install several browser addons, and optionally some hotkey software, to take full advantage of its capabilities.
 
 ## Browser addons
-Browser addons provide critical augmentations to miEru's core functionality. Clipboard Inserter is used to get Japanese text from miEru into your browser, and rikaikun/Rikaichamp are used to analyze the text and define words. Open-as-Popup conveniently turns your browser window into a borderless one for easy viewing.
+Browser addons provide critical augmentations to miEru's core functionality. **Clipboard Inserter** is used to get Japanese text from miEru into your browser, and **rikaikun/Rikaichamp** are used to analyze the text and define words. **Open-as-Popup** conveniently turns your browser window into a borderless one for easy viewing.
 
-* **Clipboard Inserter** – Scans the clipboard, and when it detects an update, inserts the result into the &lt;body&gt; of a local HTML file as a &lt;p&gt;aragraph. Open one of the included template HTML files (located in the **/miEru/CSS Files** directory) in your browser (you can drag and drop for convenience, and furthermore create a bookmark), and then click the **Toggle clipboard inserter** button installed by the addon. To make it a little snappier, open its addon/extension options by right-clicking the icon and selecting **Options**, and lower the polling interval from **300ms** to the lowest setting of **100ms**—this means it checks for new clipboard contents every tenth of a second rather than every third of a second. This addon is available for both Chrome and Firefox.
+* **Clipboard Inserter** – Scans the clipboard, and when it detects an update, inserts the result into the &lt;body&gt; of a local HTML file as a &lt;p&gt;aragraph. Open one of the included template HTML files (located in the **/miEru/CSS Files** directory) in your browser (you can drag and drop for convenience, and furthermore create a bookmark), and then click the **Toggle clipboard inserter** button installed by the addon, which you'll then see overlayed with **ON**. To make it a little snappier, open its addon/extension options by right-clicking the icon and selecting **Options**, and lower the polling interval from **300ms** to the lowest possible setting of **100ms**—this means it checks for new clipboard contents every tenth of a second rather than every third of a second. This addon is available for both Chrome and Firefox.
 https://chrome.google.com/webstore/detail/clipboard-inserter/deahejllghicakhplliloeheabddjajm?hl=en
 https://addons.mozilla.org/en-US/firefox/addon/clipboard-inserter/
 
 * **rikaikun** – A hover dictionary for Chrome, itself a port of Rikaichan. After installation, simply click the **理** icon it creates, and you'll see it overlayed with **On**. Note that sometimes, you might need to click the icon to activate rikaikun even when the **On** overlay is already visible. It's recommended that you open its extension options page (or simply right-click its icon and select **Options**)  and set its **popup delay** to **1ms**, so that it responds instantly when hovering. From here, you may also choose to disable all of the **Displayed information** checkboxes under **Kanji Dictionary**; I find that "Kanji components" is the only useful field. Note rikaikun's keyboard shortcuts shown on this page. When hovering over text, you can press the **Shift** key to change the displayed information, moving between the definition of a detected word or phrase, the information for the individual kanji selected, or the name dictionary (when applicable name kanji are detected). You can also press the **C** key to copy any hovered text.
 https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=en
 
+* **Rikaichamp** – A hover dictionary for Firefox, itself a port of rikaikun. 
+
 Should the included API key be expired by the time you begin using miEru yourself, you'll need to create your own—don't worry, it's very easy to do, and free if you're only using the service personally. Check the **Vision API setup** section below for details.
 
 ### Vision API setup
-miEru uses Google Cloud's **Vision API** to perform OCR on the active window, the results of which miEru then conveys to the clipboard. This requires an **API key**, which is associated with a Google account. Users of the API are permitted a number of free calls per month, and are charged (only with permission) for any calls made beyond that limit. Google offers $300 of free Cloud credit upon signup. For convenience's sake, an **API key** is included with this distribution that was made especially for it—should its free $300 credit eventually dry up, you'll need to create your own key. This is trivially easy to do, only requires a payment method (which will likely never be charged provided the key is only for your own personal use), and is explained in detail below.
+miEru uses Google Cloud's **Vision API** to perform OCR on the active window, the results of which miEru then conveys to the clipboard. This requires an **API key**, which is associated with a Google account. Users of the API are permitted a number of free calls per month, and are charged (only with permission) for any calls made beyond that limit. Google offers $300 of free Cloud credit upon signup. For convenience's sake, an **API key** is included with this distribution, which was made especially for it—should its free $300 credit eventually dry up, you'll need to create your own key. This is trivially easy to do, only requires a payment method (which will likely never be charged, provided the key is only for your own personal use), and is explained in detail below.
 
 For more information, refer to https://cloud.google.com/vision/pricing
 
@@ -62,4 +64,5 @@ After you've generated your API key, you'll need to navigate to the UGT folder w
 
 
 ## Special thanks
-* Contains code written by Seth A. Robinson (seth@rtsoft.com) twitter: @rtsoft - Codedojo, Seth's blog
+* Contains code written by Seth A. Robinson (seth@rtsoft.com) twitter: @rtsoft - [Codedojo](https://www.codedojo.com/), Seth's blog
+* Based on project [Ultimate Game Translator](https://github.com/SethRobinson/UGT)
