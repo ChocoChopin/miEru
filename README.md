@@ -11,11 +11,17 @@ Now, you can play your favorite games, classic or contemporary, in their origina
 # Initial setup
 No initial setup of miEru itself is required—simply unzip the miEru directory wherever you'd like to place it, and launch miEru.exe. You'll see its icon appear in the system tray/notification area, which you can right-click to exit the program. When its 見 icon is visible in the system tray, miEru is active and will scan the active window when it detects hotkey presses—see usage below.
 
-Should you want to use miEru as it was intended to be used, you'll have to install several browser addons, and optionally some hotkey software, to take full advantage of its capabilities.
+Should you want to use miEru as it was intended to be used, you'll need to install several browser addons, and optionally some hotkey software, to take full advantage of its capabilities.
 
 # Browser addons
-* Clipboard Inserter - Scans the clipboard, and when it detects an update, it inserts the result into the &lt;body&gt; of a local HTML file as a &lt;p&gt;aragraph. Open one of the included template HTML files in Chrome and enable the addon, or edit the CSS code of one of them to create your own. 
+Browser addons provide critical augmentations to miEru's core functionality. Clipboard Inserter is used to get Japanese text from miEru into your browser, and rikaikun/Rikaichamp are used to analyze the text and define words. Open-as-Popup conveniently turns your browser window into a borderless one for easy viewing.
+
+* Clipboard Inserter - Scans the clipboard, and when it detects an update, it inserts the result into the &lt;body&gt; of a local HTML file as a &lt;p&gt;aragraph. Open one of the included template HTML files in your browser (you can drag and drop for convenience, and furthermore create a bookmark), and then click the **Toggle clipboard inserter** button installed by the addon. To make it a little snappier, open its addon/extension options by right-clicking the icon and selecting "Options", and lower the polling interval from 300ms to the lowest setting of 100ms—this means it checks for new clipboard contents every tenth of a second rather than every third of a second. This addon is available for both Chrome and Firefox.
 https://chrome.google.com/webstore/detail/clipboard-inserter/deahejllghicakhplliloeheabddjajm?hl=en
+https://addons.mozilla.org/en-US/firefox/addon/clipboard-inserter/
+
+* rikaikun - A hover dictionary for Chrome, itself a port of Rikaichan. After installation, simply click the 理 icon it creates, and you'll see it overlayed with "On". Note that sometimes, you might need to click the icon to activate rikaikun even when the "On" overlay is already visible. It's recommended that you open its extension options page (or simply right-click its icon and select "Options"  and set its popup delay to 1ms, so that it responds instantly when hovering. From here, you may also choose to disable all of the "Displayed information" checkboxes under "Kanji Dictionary"; I find that "Kanji components" is the only useful field. Note rikaikun's keyboard shortcuts shown on this page. When hovering over text, you can press the Shift key to change the displayed information, moving between the definition of a detected word or phrase, the information for the individual kanji selected, or the name dictionary (when applicable name kanji are detected). You can also press the C key to copy any hovered text.
+https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=en
 
 Should the included API key be expired by the time you begin using miEru yourself, you'll need to create your own—don't worry, it's very easy to do, and free if you're only using the service personally. Check the **Vision API setup** section below for details.
 
