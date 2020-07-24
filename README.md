@@ -14,7 +14,7 @@ No initial setup of miEru itself is required—simply unzip the miEru directory 
 Should you want to use miEru as it was intended to be used, you'll have to install several browser addons, and optionally some hotkey software, to take full advantage of its capabilities.
 
 # Browser addons
-* Clipboard Inserter - Scans the clipboard, and when it detects an update, it inserts the result into the <<body>> of a local HTML file as a <p>aragraph. Open one of the included template HTML files in Chrome and enable the addon, or edit the CSS code of one of them to create your own. 
+* Clipboard Inserter - Scans the clipboard, and when it detects an update, it inserts the result into the &lt;body&gt; of a local HTML file as a &lt;p&gt;aragraph. Open one of the included template HTML files in Chrome and enable the addon, or edit the CSS code of one of them to create your own. 
 https://chrome.google.com/webstore/detail/clipboard-inserter/deahejllghicakhplliloeheabddjajm?hl=en
 
 Should the included API key be expired by the time you begin using miEru yourself, you'll need to create your own—don't worry, it's very easy to do, and free if you're only using the service personally. Check the **Vision API setup** section below for details.
