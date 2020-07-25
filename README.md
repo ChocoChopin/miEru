@@ -10,7 +10,17 @@ Now, you can play your favorite games, classic or contemporary, in their origina
 
 ![Alt](https://iili.io/dIugQs.png "Does &quot;iconic&quot; even begin to describe it?")
 
+## Setup summary
+###### *No, I will* not *read your novella*
+If you'd rather not digest the ensuing wall of text, follow these basic steps for getting started.
+
+1. Extract **miEru.zip** anywhere you'd like
+2. Install the browser addons [rikaikun for Chrome](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=en) (or [Rikaichamp for Firefox](https://addons.mozilla.org/en-US/firefox/addon/rikaichamp/)), [Clipboard Inserter for Chrome](https://chrome.google.com/webstore/detail/clipboard-inserter/deahejllghicakhplliloeheabddjajm?hl=en) (or [Clipboard Inserter for Firefox](https://addons.mozilla.org/en-US/firefox/addon/clipboard-inserter/)), and [Open-as-Popup for Chrome](https://chrome.google.com/webstore/detail/open-as-popup/ncppfjladdkdaemaghochfikpmghbcpc?hl=en) (or [Popup window for Firefox](https://addons.mozilla.org/en-US/firefox/addon/popup-window/))
+3. Open **/miEru/CSS Files/** and open one of the provided HTML files by dragging and dropping it into your browser window
+4. 
+
 ## Initial setup
+###### *First things first...*
 No initial setup of miEru itself is required—simply unzip the miEru folder wherever you'd like to place it, and launch **miEru.exe**. You'll see its **見** icon appear in the system tray/notification area, which you can **right-click** to **exit** the program. When its **見** icon is visible in the system tray, miEru is active and will scan the active window when it detects hotkey presses—see usage below.
 
 Should you want to use miEru as it was intended to be used, you'll need to install several browser addons, and optionally some hotkey software, to take full advantage of its capabilities.
@@ -18,6 +28,7 @@ Should you want to use miEru as it was intended to be used, you'll need to insta
 >**Note:** Should the included API key be expired by the time you begin using miEru yourself, you'll need to create your own—don't worry, it's very easy to do, and free if you're only using the service personally. Check the **Vision API setup** section below for details.
 
 ## Browser addons
+###### *Just a few more things to take care of before you're on your way*
 Browser addons provide critical augmentations to miEru's core functionality. **Clipboard Inserter** is used to get Japanese text from miEru into your browser, and **rikaikun/Rikaichamp** are used to analyze the text and define words and expressions. **Open-as-Popup** conveniently turns your browser window into a borderless one for easy viewing.
 
 * **Clipboard Inserter** – Scans the clipboard, and when it detects an update, inserts the result into the &lt;body&gt; of a local HTML file as a &lt;p&gt;aragraph. Open one of the included template HTML files (located in the **/miEru/CSS Files/** directory) in your browser (you can drag and drop for convenience, and furthermore create a bookmark), and then click the **Toggle clipboard inserter** button installed by the addon, which you'll then see overlayed with **ON**. To make it a little snappier, open its addon/extension options by right-clicking the icon and selecting **Options**, and lower the polling interval from **300ms** to the lowest possible setting of **100ms**—this means it checks for new clipboard contents every tenth of a second rather than every third of a second. This addon is available for both Chrome and Firefox.  
@@ -44,6 +55,7 @@ An empty local HTML file will work, but retro JRPG-styled window templates are i
 Run the content you wish to capture—typically, a retro game running in an emulator, or a PC game with Japanese text—and press the **capture hotkey**. You'll see the text captured by the API appear in the browser window you prepared—typically, each call takes under two seconds, sometimes as little as one, but speed can vary depending on API server load and complexity of the scanned image. Note that the desired window must be selected and active for it to be captured—**rikaikun** will still work even if the browser window is inactive, so you can hover over text without deselecting the desired window. If you're using the included HTML files, captured text will appear at the top of the browser window as to prevent the necessity of scrolling down for each new line of text. 
 
 ## Optional tools
+###### *To whom it may concern*
 Several optional tools can provide extensibility for activating hotkeys.
 
 * **DS4Win** – If you own a DualShock 4 controller, this might be your preferred way to play retro games, both because of the DS4's unrivaled D-pad and because DS4Win has excellent support for macros and hotkeys, in addition to a staggering number of additional useful features such as gyroscopic mouse control. Its home site provides good documentation, and the application itself is very easy to use. By selecting individual controller buttons within the profile configuraiton, it's possible to create macro assignments for each one; in my own setup, I use the left trigger for the **capture hotkey**, and the right trigger for the **capture hotkey** plus an additional **confirm button press**, slightly delayed. When proceeding through many dialogue boxes, it's often easier to use the latter function to perform a capture and advance to the next dialogue box at the same time. Shown is the DS4Win macro setup used, with the timings manually adjusted for accuracy. Check **Record Delays**, perform the macro, save it, and then click on the timing boxes to adjust them afterward. [Example](https://prnt.sc/to0lt4)
