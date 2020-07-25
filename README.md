@@ -72,7 +72,7 @@ Several optional tools can provide extensibility for activating hotkeys.
 ## Options
 
 ### Preserve spacing
-By default, miEru removes spaces from Japanese text; **Vision** actively inserts spaces into text it processes, and usually does so grammatically correctly, but often enough, spaces will be inserted in the middle of words or phrases, rendering **rikaikun** unable to detect them properly. For **kana-only** games, it may prove useful to preserve spaces instead. To enable this feature, enter **/miEru/UGT**, open **config.txt**, and find the line **preserveSpacing|**; change **0** to **1**. 
+By default, miEru removes spaces from Japanese text; **Vision** actively inserts spaces into text it processes, and usually does so grammatically correctly, but often enough, spaces will be inserted in the middle of words or phrases, rendering **rikaikun** unable to detect them properly. For **kana-only** games, it may prove useful to preserve spaces instead. To enable this feature, navigate to **/miEru/UGT**, open **config.txt**, and find the line **preserveSpacing|**; change **0** to **1**, then save the file. 
 
 ## Known issues
 ###### *Caveat emptor*
