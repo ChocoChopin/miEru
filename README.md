@@ -1,6 +1,6 @@
 # miEru
 
-###### **見える** *v.i.* to be seen; to be in sight
+###### ***見える*** *v.i. to be seen; to be in sight*
 
 miEru is a Windows-based language-learning tool that does one thing extremely well: optically recognize text in the active window, and then send that text to the Windows clipboard.
 
@@ -69,7 +69,7 @@ Several optional tools can provide extensibility for activating hotkeys.
   * [AutoHotkey](https://www.autohotkey.com/)
 
 ## Known issues
-###### Caveat emptor
+###### *Caveat emptor*
 Even with the power of 21st century robot vision at your behest, you'll encounter some quirks sooner or later. 
 
 ![Alt](https://iili.io/dIuP44.png "&quot;Madou&quot;? &quot;Haidou&quot;? Little from column A, little from column B?")
