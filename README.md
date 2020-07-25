@@ -45,7 +45,7 @@ Browser addons provide critical augmentations to miEru's core functionality. **C
 * **Rikaichamp** – A hover dictionary for Firefox, itself a port of rikaikun. The above guidelines for rikaikun also apply to Rikaichamp, as its functionality and options are largely identical.  
   * [Rikaichamp for Firefox](https://addons.mozilla.org/en-US/firefox/addon/rikaichamp/)
 
-* **Open-as-Popup** – Transforms the current browser window or tab into a separate window without browser UI elements, ideal for eliminating distractions and focusing on text. Once you install the addon, it'll create a unique-looking icon with a green arrow—click this to activate the current window or tab, and if you'd like to return the popup window back to where it was, you can right-click within it and select **Toggle Open-as-Popup**.  
+* **Open-as-Popup** – Transforms the current browser window or tab into a separate window without browser UI elements, ideal for eliminating distractions and focusing on text. Once you install the addon, it'll create a unique-looking [icon](https://prnt.sc/tog0zt) ([Firefox](https://prnt.sc/tog1gf)) with a green arrow—click this to activate the current window or tab, and if you'd like to return the popup window back to where it was, you can right-click within it and select **Toggle Open-as-Popup**.  
   * [Open-as-Popup for Chrome](https://chrome.google.com/webstore/detail/open-as-popup/ncppfjladdkdaemaghochfikpmghbcpc?hl=en)
   * [Popup window for Firefox](https://addons.mozilla.org/en-US/firefox/addon/popup-window/)
 
