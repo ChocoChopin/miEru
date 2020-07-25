@@ -1,6 +1,6 @@
 # miEru
 
-**miEru** (見える) *v.i.* to be seen; to be in sight  [Japanese]
+###### **(見える)** *v.i.* to be seen; to be in sight  [Japanese]
 
 miEru is a Windows-based language-learning tool that does one thing extremely well: optically recognize text in the active window, and then send that text to the Windows clipboard.
 
