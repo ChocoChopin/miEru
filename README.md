@@ -70,10 +70,17 @@ Several optional tools can provide extensibility for activating hotkeys.
 
 ## Known issues
 ###### *Caveat emptor*
-Even with the power of 21st century robot vision at your behest, you'll encounter some quirks sooner or later. 
+Even with the power of 21st century robot vision at your behest, you'll encounter some quirks sooner or later. Fortunately, none of these problems are serious, and they should only rarely impede your ability to enjoy your content.
 
+#### Inconsistent character recognition
+Occasionally, you'll notice that the same character is interpreted in two different ways, seemingly arbitrarily. You'll just have to use your human vision in such cases.
 ![Alt](https://iili.io/dIuP44.png "&quot;Madou&quot;? &quot;Haidou&quot;? Little from column A, little from column B?")
 > Google's **Vision API** is remarkably accurate—probably nearly 99% accurate—but even it is occasionally brought to its knees by the horrors of 16-bit-era kanji
+
+#### No recognition
+In some instances, **Vision** won't pick up anything at all. In this screencap, text filtering has been entirely disabled—the only things seen are the title bar and window buttons. Oddly, if the screencap itself is zoomed in on and scanned, recognition is accurate.
+![Alt](https://freeimage.host/i/dTHxlj)
+> "成功"? More like 故障.
 
 ### Vision API setup
 miEru uses Google Cloud's **Vision API** to perform OCR on the active window, the results of which miEru then conveys to the clipboard. This requires an **API key**, which is associated with a Google account. Users of the API are permitted a number of free API calls per month, and are charged (only with permission) for any calls made beyond that limit. Google offers $300 of free Cloud credit upon signup. For convenience's sake, an **API key** is included with this distribution, which was made especially for it—should its free $300 credit eventually dry up, you'll need to create your own key. This is trivially easy to do, only requires a payment method (which will likely never be charged, provided the key is only for your own personal use), and is explained in detail below.
