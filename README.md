@@ -14,13 +14,13 @@ Now, you can play your favorite games, classic or contemporary, in their origina
 ###### *No, I will* ***not*** *read your novella*
 If you're short on time, follow these basic steps for getting started.
 
-**1.** Extract **miEru.zip** anywhere you'd like
-**2.** Install the browser addons [rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=en) (or [Rikaichamp for Firefox](https://addons.mozilla.org/en-US/firefox/addon/rikaichamp/)), [Clipboard Inserter](https://chrome.google.com/webstore/detail/clipboard-inserter/deahejllghicakhplliloeheabddjajm?hl=en) (or [for Firefox](https://addons.mozilla.org/en-US/firefox/addon/clipboard-inserter/)), and [Open-as-Popup](https://chrome.google.com/webstore/detail/open-as-popup/ncppfjladdkdaemaghochfikpmghbcpc?hl=en) (or [Popup window for Firefox](https://addons.mozilla.org/en-US/firefox/addon/popup-window/))
-**3.** Navigate to **/miEru/CSS Files/** and open one of the provided HTML files by dragging and dropping it into your browser window
-**4.** Toggle the dictionary and clipboard extensions on so that they look like [this](https://prnt.sc/tofam6); press the Open-as-Popup extension button to get rid of the window frame if you want
-**5.** Run **miEru.exe**; you'll see its **見** taskbar icon appear
-**6.** Select the window of whatever you want to capture, and press **Ctrl + F12**; captured text appears at the top of the browser window
-**7.** Contemplate the **real value** of your time, and reevaluate any commitments that may be interfering with your ability to read verbose documentation
+1. Extract **miEru.zip** anywhere you'd like
+2. Install the browser addons [rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=en) (or [Rikaichamp for Firefox](https://addons.mozilla.org/en-US/firefox/addon/rikaichamp/)), [Clipboard Inserter](https://chrome.google.com/webstore/detail/clipboard-inserter/deahejllghicakhplliloeheabddjajm?hl=en) (or [for Firefox](https://addons.mozilla.org/en-US/firefox/addon/clipboard-inserter/)), and [Open-as-Popup](https://chrome.google.com/webstore/detail/open-as-popup/ncppfjladdkdaemaghochfikpmghbcpc?hl=en) (or [Popup window for Firefox](https://addons.mozilla.org/en-US/firefox/addon/popup-window/))
+3. Navigate to **/miEru/CSS Files/** and open one of the provided HTML files by dragging and dropping it into your browser window
+4. Toggle the dictionary and clipboard extensions on so that they look like [this](https://prnt.sc/tofam6); press the Open-as-Popup extension button to get rid of the window frame if you want
+5. Run **miEru.exe**; you'll see its **見** taskbar icon appear
+6. Select the window of whatever you want to capture, and press **Ctrl + F12**; captured text appears at the top of the browser window
+7. Contemplate the **real value** of your time, and reevaluate any commitments that may be interfering with your ability to read verbose documentation
 
 > Can't be arsed to click on all that stuff? Click on [**this**](https://www.dropbox.com/s/ucr41hrljggg890/Firefox%20miEru.zip?dl=1) instead, for a portable version of Firefox with the addons already installed. 
 
