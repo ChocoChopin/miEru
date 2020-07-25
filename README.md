@@ -79,7 +79,7 @@ Occasionally, you'll notice that the same character is interpreted in two differ
 
 #### No recognition
 In some instances, **Vision** won't pick up anything at all. In this screencap, text filtering has been entirely disabled—the only things seen are the title bar and window buttons. Oddly, if the screencap itself is zoomed in on and scanned, recognition is accurate.
-![Alt](https://freeimage.host/i/dTHxlj)
+![Alt](https://iili.io/dTHxlj.png)
 > "成功"? More like 故障.
 
 ### Vision API setup
