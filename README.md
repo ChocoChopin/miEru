@@ -11,7 +11,7 @@ Now, you can play your favorite games, classic or contemporary, in their origina
 ![Alt](https://iili.io/dIugQs.png "Does &quot;iconic&quot; even begin to describe it?")
 
 ## Setup summary
-###### *No, I will* not *read your novella*
+###### *No, I will* ***not*** *read your novella*
 If you'd rather not digest the ensuing wall of text, follow these basic steps for getting started.
 
 1. Extract **miEru.zip** anywhere you'd like
