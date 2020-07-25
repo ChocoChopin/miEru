@@ -6,7 +6,7 @@ miEru is a Windows-based language-learning tool that does one thing extremely we
 
 This opens up a wealth of possibilities, chief of which for language learners is the ability to analyze scanned text with browser-based hover dictionaries such as Rikaikun.
 
-Now, you can play your favorite games, classic or contemporary, in their original language and use them as a learning resource. Or you might just get through them where you otherwise couldn't. Old things become new again through the eyes of a student, and almost everything is more enjoyable and engaging when you're learning.
+Now, you can play your favorite games, classic or contemporary, in their original language and use them as a learning resource. Old things become new again through the eyes of a student, and almost everything is more enjoyable and engaging when you're learning.
 
 ![Alt](https://iili.io/dIugQs.png "Does &quot;iconic&quot; even begin to describe it?")
 
