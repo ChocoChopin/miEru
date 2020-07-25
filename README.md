@@ -68,6 +68,11 @@ Several optional tools can provide extensibility for activating hotkeys.
 * **AutoHotkey** – Arguably among the most useful Windows utilities ever created, AutoHotkey provides a simple-yet-sophisticated system for creating and using keyboard macros. Not only can its macros be used to interact with the Windows API in almost any way imaginable, for our purposes, AutoHotkey also takes input from connected gamepads, meaning that a **gamepad button** can be macroed to the **capture hotkey**. In this case, its only limitation is that unlike DS4Win, its macros cannot simulate gamepad button input—so you'll need to press the confirm button in addition to the capture button each time. Included in **/miEru/AutoHotkey scripts/** are **Controller hotkey template** and **Gamepad test script**. After installing AutoHotkey, first run the test script, which will produce a tooltip next to the cursor. This provides live feedback about gamepad input. The device itself will appear as **1joy**, and potentially as anything up to **4joy** or more depending on how many gamepads you have configured. Captured inputs will appear as **1joy7**, with the second number corresponding to the button pressed. Run the template script, and then edit it by right-clicking on its system tray/notification area icon. Modify each of the macro entries to reflect the desired device and button as shown [here](https://prnt.sc/to1dsa), save the file in the editor, and then choose **Reload script** from the system tray icon's menu. The configured button will now perform miEru captures. Exit the test script using its own system tray icon.  
   * [AutoHotkey](https://www.autohotkey.com/)
 
+## Options
+
+### Preserve spacing
+By default, miEru removes spaces from Japanese text; **Vision** actively inserts spaces into text it processes, and usually does so grammatically correctly, but often enough, spaces will be inserted in the middle of words or phrases, rendering **rikaikun** unable to detect them properly. For **kana-only** games, it may prove useful to preserve spaces instead. To enable this feature, enter **/miEru/UGT**, open **config.txt**, and find the line **preserveSpacing|**; change **0** to **1**. 
+
 ## Known issues
 ###### *Caveat emptor*
 Even with the power of 21st century robot vision at your behest, you'll encounter some quirks sooner or later. Fortunately, none of these problems are serious, and they should only rarely impede your ability to enjoy your content.
@@ -82,7 +87,7 @@ In some instances, **Vision** won't pick up anything at all. In this screencap, 
 ![Alt](https://iili.io/dTHxlj.png)
 > "成功"? More like 故障.
 
-### Vision API setup
+## Vision API setup
 miEru uses Google Cloud's **Vision API** to perform OCR on the active window, the results of which miEru then conveys to the clipboard. This requires an **API key**, which is associated with a Google account. Users of the API are permitted a number of free API calls per month, and are charged (only with permission) for any calls made beyond that limit. Google offers $300 of free Cloud credit upon signup. For convenience's sake, an **API key** is included with this distribution, which was made especially for it—should its free $300 credit eventually dry up, you'll need to create your own key. This is trivially easy to do, only requires a payment method (which will likely never be charged, provided the key is only for your own personal use), and is explained in detail below.
 
 * Log in to your Google account and open [this page](https://cloud.google.com/vision/docs/before-you-begin)
