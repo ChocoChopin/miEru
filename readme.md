@@ -11,7 +11,7 @@ Now, you can play your favorite games, classic or contemporary, in their origina
 ![Alt](https://iili.io/dIugQs.png "Does &quot;iconic&quot; even begin to describe it?")
 
 ## Setup summary
-###### *No, I will* ***not*** *read your novella*
+###### *No, I will not read your novella*
 If you're short on time, follow these basic steps for getting started.
 
 1. Extract **miEru.zip** anywhere you'd like
@@ -25,7 +25,7 @@ If you're short on time, follow these basic steps for getting started.
 > Can't be arsed to click on all that stuff? Click on [**this**](https://www.dropbox.com/s/ucr41hrljggg890/Firefox%20miEru.zip?dl=1) instead, for a portable version of Firefox with the addons already installed. 
 
 ## Initial setup
-###### *First things first...*
+###### *Let's get one thing straight*
 No initial setup of miEru itself is required—simply unzip the miEru folder wherever you'd like to place it, and launch **miEru.exe**. You'll see its **見** icon appear in the system tray/notification area, which you can **right-click** to **exit** the program. When its **見** icon is visible in the system tray, miEru is active and will scan the active window when it detects hotkey presses—see usage below.
 
 Should you want to use miEru as it was intended to be used, you'll need to install several browser addons, and optionally some hotkey software, to take full advantage of its capabilities.
@@ -51,6 +51,7 @@ Browser addons provide critical augmentations to miEru's core functionality. **C
   * [Popup window for Firefox](https://addons.mozilla.org/en-US/firefox/addon/popup-window/)
 
 ## Usage
+###### When the only tool you have is an OCR API, everything looks like parsable text
 miEru is activated by a keyboard **capture hotkey combination**—by default, this is **Ctrl + F12**, but can be changed by modifying the **hotkey_to_scan_active_window** parameter in **/miEru/UGT/config.txt**. When miEru detects this combo, it takes a screenshot of the active window, sends the screenshot to the **Vision API**, receives the textual result of the API call, parses the result, and then forwards it to the clipboard for viewing in the browser window.
 
 ### Set up the browser window
@@ -72,7 +73,7 @@ Several optional tools can provide extensibility for activating hotkeys.
 ## Options
 
 #### Preserve spacing
-By default, miEru removes spaces from Japanese text; **Vision** actively inserts spaces into text it processes, and usually does so grammatically correctly, but often enough, spaces will be inserted in the middle of words or phrases, rendering **rikaikun** unable to detect them properly. For **kana-only** games, it may prove useful to preserve spaces instead. To enable this feature, navigate to **/miEru/UGT**, open **config.txt**, and find the line **preserveSpacing|**; change **0** to **1**, then save the file.
+By default, miEru removes spaces from Japanese text; **Vision** actively inserts spaces into text it processes, and usually does so grammatically correctly, but often enough, spaces will be inserted in the middle of words or phrases, rendering **rikaikun** unable to detect them properly. For **kana-only** games, it may prove useful to preserve spaces instead. To enable this feature, navigate to **/miEru/UGT/**, open **config.txt**, and find the line **preserveSpacing|**; change **0** to **1**, then save the file.
 
 #### Junk detection
 **Vision** will often see random characters where there aren't any, and it'll usually detect the window buttons as "OX" or some version thereof. miEru filters these chunks of text out if they're below a specified length in bytes. The **junkLength|** parameter allows you to change the minimum required size for dialogue. The default setting is 8, and this filters nearly all such junk while preserving virtually all dialogue detection.
