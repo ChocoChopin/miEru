@@ -72,7 +72,13 @@ Several optional tools can provide extensibility for activating hotkeys.
 ## Options
 
 ### Preserve spacing
-By default, miEru removes spaces from Japanese text; **Vision** actively inserts spaces into text it processes, and usually does so grammatically correctly, but often enough, spaces will be inserted in the middle of words or phrases, rendering **rikaikun** unable to detect them properly. For **kana-only** games, it may prove useful to preserve spaces instead. To enable this feature, navigate to **/miEru/UGT**, open **config.txt**, and find the line **preserveSpacing|**; change **0** to **1**, then save the file. 
+By default, miEru removes spaces from Japanese text; **Vision** actively inserts spaces into text it processes, and usually does so grammatically correctly, but often enough, spaces will be inserted in the middle of words or phrases, rendering **rikaikun** unable to detect them properly. For **kana-only** games, it may prove useful to preserve spaces instead. To enable this feature, navigate to **/miEru/UGT**, open **config.txt**, and find the line **preserveSpacing|**; change **0** to **1**, then save the file.
+
+### Junk detection
+**Vision** will often see random characters where there aren't any, and it'll usually detect the window buttons as "OX" or some version thereof. miEru filters these chunks of text out if they're below a specified length in bytes. The **junkLength|** parameter allows you to change the minimum required size for dialogue. The default setting is 8, and this filters nearly all such junk while preserving virtually all dialogue detection.
+
+### Keyword filtering
+**Vision** detects the text of title bars, menu bars, and status bars as well. This text is often long enough to make it past the junk filter. If you wish to filter out these blocks of text specifically, you can specify keywords using the **titlebarName|**, **menubarName|**, and **statusbarName|** parameters in **config.txt**. Be verbose—any block of text *containing* the entire keyword will be filtered out. For example, "Paint" will filter out any block containing that whole word, but "P" will filter out any block containing any instance of the letter "P". These parameters are case-sensitive.
 
 ## Known issues
 ###### *Caveat emptor*
@@ -84,7 +90,7 @@ Occasionally, you'll notice that the same character is interpreted in two differ
 > Google's **Vision API** is remarkably accurate—probably nearly 99% accurate—but even it is occasionally brought to its knees by the horrors of 16-bit-era kanji
 
 #### No recognition
-In some instances, **Vision** won't pick up anything at all. In this screencap, text filtering has been entirely disabled—the only things seen are the title bar and window buttons. Oddly, if the screencap itself is zoomed in on and scanned, recognition is accurate.
+In some instances, **Vision** won't pick up anything at all. In this screencap, text filtering has been entirely disabled—the only things seen are the title bar and window buttons. Oddly, if the screencap itself is zoomed in on and scanned, recognition is accurate. The mind of the bot is inscrutable.
 ![Alt](https://iili.io/dTHxlj.png)
 > "成功"? More like 故障.
 
