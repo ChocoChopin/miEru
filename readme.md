@@ -30,7 +30,7 @@ No initial setup of miEru itself is required—simply unzip the miEru folder whe
 
 Should you want to use miEru as it was intended to be used, you'll need to install several browser addons, and optionally some hotkey software, to take full advantage of its capabilities.
 
->**Note:** Should the included API key be expired by the time you begin using miEru yourself, you'll need to create your own—don't worry, it's very easy to do, and free if you're only using the service personally. Check the **Vision API setup** section below for details.
+>**Note:** Should the included API key be expired by the time you begin using miEru yourself, you'll need to create your own—don't worry, it's very easy to do, and free if you're only using the service personally. Check the [**Vision API setup**](https://github.com/ChocoChopin/miEru/blob/master/readme.md#vision-api-setup) section below for details.
 
 ## Browser addons
 ###### *By your powers combined...*
@@ -70,7 +70,7 @@ Several optional tools can provide extensibility for activating hotkeys.
 * **AutoHotkey** – Arguably among the most useful Windows utilities ever created, AutoHotkey provides a simple-yet-sophisticated system for creating and using keyboard macros. Not only can its macros be used to interact with the Windows API in almost any way imaginable, for our purposes, AutoHotkey also takes input from connected gamepads, meaning that a **gamepad button** can be macroed to the **capture hotkey**. In this case, its only limitation is that unlike DS4Win, its macros cannot simulate gamepad button input—so you'll need to press the confirm button in addition to the capture button each time. Included in **/miEru/AutoHotkey scripts/** are **Controller hotkey template** and **Gamepad test script**. After installing AutoHotkey, first run the test script, which will produce a tooltip next to the cursor. This provides live feedback about gamepad input. The device itself will appear as **1joy**, and potentially as anything up to **4joy** or more depending on how many gamepads you have configured. Captured inputs will appear as **1joy7**, with the second number corresponding to the button pressed. Run the template script, and then edit it by right-clicking on its system tray/notification area icon. Modify each of the macro entries to reflect the desired device and button as shown [here](https://prnt.sc/to1dsa), save the file in the editor, and then choose **Reload script** from the system tray icon's menu. The configured button will now perform miEru captures. Exit the test script using its own system tray icon.  
   * [AutoHotkey](https://www.autohotkey.com/)
 
-## Options
+## **Configuration options**
 ###### *For those who like to switch things up*
 #### Preserve spacing
 By default, miEru removes spaces from Japanese text; **Vision** actively inserts spaces into text it processes, and usually does so grammatically correctly, but often enough, spaces will be inserted in the middle of words or phrases, rendering **rikaikun** unable to detect them properly. For **kana-only** games, it may prove useful to preserve spaces instead. To enable this feature, navigate to **/miEru/UGT/**, open **config.txt**, and find the line **preserveSpacing|**; change **0** to **1**, then save the file.
