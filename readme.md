@@ -51,7 +51,7 @@ Browser addons provide critical augmentations to miEru's core functionality. **C
   * [Popup window for Firefox](https://addons.mozilla.org/en-US/firefox/addon/popup-window/)
 
 ## Usage
-###### When the only tool you have is an OCR API, everything looks like parsable text
+###### *When the only tool you have is an OCR API, everything looks like parsable text*
 miEru is activated by a keyboard **capture hotkey combination**—by default, this is **Ctrl + F12**, but can be changed by modifying the **hotkey_to_scan_active_window** parameter in **/miEru/UGT/config.txt**. When miEru detects this combo, it takes a screenshot of the active window, sends the screenshot to the **Vision API**, receives the textual result of the API call, parses the result, and then forwards it to the clipboard for viewing in the browser window.
 
 ### Set up the browser window
@@ -71,7 +71,7 @@ Several optional tools can provide extensibility for activating hotkeys.
   * [AutoHotkey](https://www.autohotkey.com/)
 
 ## Options
-
+###### *For those who like to switch things up*
 #### Preserve spacing
 By default, miEru removes spaces from Japanese text; **Vision** actively inserts spaces into text it processes, and usually does so grammatically correctly, but often enough, spaces will be inserted in the middle of words or phrases, rendering **rikaikun** unable to detect them properly. For **kana-only** games, it may prove useful to preserve spaces instead. To enable this feature, navigate to **/miEru/UGT/**, open **config.txt**, and find the line **preserveSpacing|**; change **0** to **1**, then save the file.
 
