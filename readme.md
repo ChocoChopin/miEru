@@ -33,7 +33,7 @@ Should you want to use miEru as it was intended to be used, you'll need to insta
 >**Note:** Should the included API key be expired by the time you begin using miEru yourself, you'll need to create your own—don't worry, it's very easy to do, and free if you're only using the service personally. Check the **Vision API setup** section below for details.
 
 ## Browser addons
-###### *Just a few more things to take care of before you're on your way*
+###### *By your powers combined...*
 Browser addons provide critical augmentations to miEru's core functionality. **Clipboard Inserter** is used to get Japanese text from miEru into your browser, and **rikaikun/Rikaichamp** are used to analyze the text and define words and expressions. **Open-as-Popup** conveniently turns your browser window into a borderless one for easy viewing.
 
 * **Clipboard Inserter** – Scans the clipboard, and when it detects an update, inserts the result into the &lt;body&gt; of a local HTML file as a &lt;p&gt;aragraph. Open one of the included template HTML files (located in the **/miEru/CSS Files/** directory) in your browser (you can drag and drop for convenience, and furthermore create a bookmark), and then click the **Toggle clipboard inserter** button installed by the addon, which you'll then see overlayed with **ON**. To make it a little snappier, open its addon/extension options by right-clicking the icon and selecting **Options**, and lower the polling interval from **300ms** to the lowest possible setting of **100ms**—this means it checks for new clipboard contents every tenth of a second rather than every third of a second. This addon is available for both Chrome and Firefox.  
