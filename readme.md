@@ -118,7 +118,7 @@ miEru uses Google Cloud's **Vision API** to perform OCR on the active window, th
 
 * Vision is [always-free](https://cloud.google.com/free/docs/gcp-free-tier#always-free) per month below a certian number of calls. For more information, refer to https://cloud.google.com/vision/pricing
 
-* [1400 calls, less than $1](https://prnt.sc/tnw3dz) 
+* [1400 calls, less than $1 of free credit used](https://prnt.sc/tnw3dz) 
 
 * [Go to the project selector page.](https://prnt.sc/tnw8ib) It appears that Google automatically added some dummy projects to my account, but if it doesn't add them to yours, simply click "create project", type in a name, and you're good to go. 
 
