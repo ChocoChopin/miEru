@@ -14,7 +14,7 @@ Now, you can play your favorite games, classic or contemporary, in their origina
 ###### *No, I will not read your novella*
 If you're short on time, follow these basic steps for getting started.
 
-1. Extract **miEru.zip** anywhere you'd like
+1. Extract [**miEru.zip**](https://chocochopin.github.io/miEru/Releases/miEru.zip) anywhere you'd like
 2. Install the browser addons [rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=en) (or [Rikaichamp for Firefox](https://addons.mozilla.org/en-US/firefox/addon/rikaichamp/)), [Clipboard Inserter](https://chrome.google.com/webstore/detail/clipboard-inserter/deahejllghicakhplliloeheabddjajm?hl=en) (or [for Firefox](https://addons.mozilla.org/en-US/firefox/addon/clipboard-inserter/)), and [Open-as-Popup](https://chrome.google.com/webstore/detail/open-as-popup/ncppfjladdkdaemaghochfikpmghbcpc?hl=en) (or [Popup window for Firefox](https://addons.mozilla.org/en-US/firefox/addon/popup-window/))
 3. Choose a [window theme](https://github.com/ChocoChopin/miEru/blob/master/Themes/themes.md#window-themes) from the list
 4. Toggle the dictionary and clipboard extensions on so that they look like [this](https://prnt.sc/tofam6); press the Open-as-Popup extension button (or the hotkey **Alt+0**) to get rid of the window frame if you want
