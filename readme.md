@@ -2,7 +2,7 @@
 
 ###### ***見える*** *v.i. to be seen; to be in sight*
 
-miEru is a Windows-based language-learning tool that does one thing extremely well: optically recognize text in the active window, and then send that text to the Windows clipboard.
+miEru is a Windows-based language-learning tool that does one thing extremely well: optically recognize text in desktop applications, and then send that text to the Windows clipboard.
 
 This opens up a wealth of possibilities, chief of which for language learners is the ability to analyze scanned text with browser-based hover dictionaries such as Rikaikun.
 
