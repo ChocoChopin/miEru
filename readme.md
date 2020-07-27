@@ -72,7 +72,7 @@ Several optional tools can provide extensibility for activating hotkeys. Save yo
   
 ## Additional Resources
 
- * **Snipping Tool** – The Snipping Tool, included in Windows, is very useful when vision is having trouble with a particular line of text. Use its [rectangular snip mode](https://prnt.sc/tp9vnz) on the problem text, and then press the **capture hotkey**. miEru's hard-coded to ignore Snipping Tool's title bar. **Vision** is often able to recognize text in isolation that it's unable to recognize in the context of a screenshot of the entire game window. 
+ * **Snipping Tool** – The Snipping Tool, included in Windows, is very useful when vision is having trouble with a particular line of text. Use its [rectangular snip mode](https://prnt.sc/tp9vnz) on the problem text, and then press the **capture hotkey**. miEru is hard-coded to ignore Snipping Tool's title bar. **Vision** is often able to recognize text in isolation that it's unable to recognize in the context of a screenshot of the entire game window. 
 
 ## Configuration options
 ###### *For those who like to switch things up*
@@ -97,7 +97,7 @@ Occasionally, you'll notice that the same character is interpreted in two differ
 > Google's **Vision API** is remarkably accurate—probably nearly 99% accurate—but even it is occasionally brought to its knees by the horrors of 16-bit-era kanji
 
 #### No recognition
-In some instances, **Vision** won't pick up anything at all. In this screencap, text filtering has been entirely disabled—the only things seen are the title bar and window buttons. Oddly, if the screencap itself is zoomed in on and scanned, recognition is accurate. The mind of the bot is inscrutable. Try resizing the window and performing a capture again.
+In some instances, **Vision** won't pick up anything at all. In this screencap, text filtering has been entirely disabled—the only things seen are the title bar and window buttons. Oddly, if the screencap itself is zoomed in on and scanned, recognition is accurate. The mind of the bot is inscrutable. Try resizing the window and performing a capture again. If that fails, try using **Snipping Tool** as described above.
 ![Alt](https://iili.io/dTHxlj.png)
 > "成功"? More like 故障.
 
