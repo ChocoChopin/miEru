@@ -132,7 +132,7 @@ miEru uses Google Cloud's **Vision API** to perform OCR on the active window, th
 
 * [Copy the key to your clipboard with this button](https://prnt.sc/tnwpzz) 
 
-After you've generated your API key, you'll need to navigate to the UGT folder within the miEru directory, and open **config.txt**. Find the line **google_api_key|**, and paste the key directly after the pipe, replacing the existing entry. Save, and you're finished.
+After you've generated your API key, you'll need to navigate to **/miEru/UGT/**, and open **config.txt**. Find the line **google_api_key|**, and paste the key directly after the pipe, replacing the existing entry. Save, and you're finished.
 
 
 ## Special thanks
