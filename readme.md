@@ -23,7 +23,7 @@ If you're short on time, follow these basic steps for getting started.
 6. Select the window of whatever you want to capture, and press **Ctrl + F12**; captured text appears at the top of the browser window
 7. Contemplate the **real value** of your time, and reevaluate any commitments that may be interfering with your ability to read verbose documentation
 
-> Can't be arsed to click on all that stuff? Click on [**this**](https://www.dropbox.com/s/ucr41hrljggg890/Firefox%20miEru.zip?dl=1) instead, for a portable version of Firefox with the addons already installed. 
+>> Can't be arsed to click on all that stuff? Click on [**this**](https://www.dropbox.com/s/ucr41hrljggg890/Firefox%20miEru.zip?dl=1) instead, for a portable version of Firefox with the addons already installed. 
 
 ## Initial setup
 ###### *Let's get one thing straight*
